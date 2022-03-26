@@ -15,9 +15,9 @@ export class Section extends Component {
             <section>
                     <Route path="/" component={Catergories} exact />
                     <Route path="/category" component={Catergories} exact />
-                    {/* <Route path="/products" component={AllProducts} exact  />
+                    <Route path="/products" component={AllProducts} exact  />
                     <Route path="/product/Id/:id" component={Details} exact  />
-                    <Route path="/searchresults" component={SearchResults} exact  />                   */}
+                    <Route path="/searchresults" component={SearchResults} exact  />                  
                     <Route path="/category/:catergory_id" component={Products} exact />
                     <Route path="/cart" component={Cart}  exact/>
             </section>
